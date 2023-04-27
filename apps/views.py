@@ -4,7 +4,6 @@ from django.http import HttpResponse
 from django.template import Template, Context, loader
 from .forms import LoginForm, ClienteFormulario, BuscarProducto
 from django.contrib.auth import authenticate, login
-import sqlite3
 from apps.models import Cliente, Producto
 
 # Create your views here.
